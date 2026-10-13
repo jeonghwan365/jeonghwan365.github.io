@@ -22,7 +22,7 @@ window.PORTFOLIO = {
     ],
     links: [
       { label: "GitHub", href: "https://github.com/jeonghwan365" },
-      { label: "이메일", href: "", todo: "공개할 이메일 주소" }
+      { label: "이메일", href: "mailto:hiji0011@konkuk.ac.kr" }
     ]
   },
 
@@ -208,7 +208,11 @@ window.PORTFOLIO = {
         { label: "형태", value: "개인, 영문" }
       ],
       summary: ["한일 경제 협력의 한계와 가능성을 죄수의 딜레마로 분석한 영문 에세이입니다."],
-      todo: "핵심 주장 한 줄, 원문 공개 여부"
+      todo: "핵심 주장 한 줄",
+      document: {
+        label: "에세이 원문",
+        file: "files/extraction-paradox.pdf"
+      }
     },
     {
       id: "polisci-double-major",
@@ -225,11 +229,15 @@ window.PORTFOLIO = {
       kind: "period",
       track: "study",
       start: "2026-07",
-      end: "2026-08",
+      end: "2026-07",
       short: "상하이 단기교환",
-      title: "중국 상하이 단기 교환학생",
+      title: "상하이교통대학교 단기 교환학생",
+      meta: [
+        { label: "학교", value: "상하이교통대학교 (중국 상하이)" },
+        { label: "기간", value: "2026.07.13 – 07.27" }
+      ],
       summary: ["방학 중 중국 상하이에서 단기 교환학생 프로그램에 참여했습니다."],
-      todo: "정확한 기간 확인 (지금은 2026년 7~8월로 임시 입력), 학교명과 배운 것"
+      todo: "배운 것"
     }
   ]
 };
