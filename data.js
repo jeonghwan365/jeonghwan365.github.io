@@ -13,8 +13,8 @@ window.PORTFOLIO = {
 
   profile: {
     name: "황정환",
-    role: "Product Manager",
-    intro: "낯선 문제를 만나면 필요한 정보를 직접 찾고, 서로 다른 자료를 구조화해 판단합니다.",
+    role: "Product Manager 지원자",
+    intro: "커리어패스",
     facts: [
       { label: "학력", value: "건국대학교 행정학과, 정치외교학과 복수전공 (2027년 2월 졸업 예정)" },
       { label: "병역", value: "육군 병장 만기전역 (2024년 1월)" }
