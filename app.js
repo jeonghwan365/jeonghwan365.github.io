@@ -386,7 +386,7 @@
         el("span", { class: "rec-date", text: fmtPeriod(it) }),
         el("span", { class: "rec-title" }, [
           it.title,
-          it.featured ? el("span", { class: "rec-badge", text: "대표 경험" }) : null
+          it.featured ? el("span", { class: "rec-badge", text: "주요 경험" }) : null
         ]),
         el("span", { class: "rec-track" }, [el("span", { class: "swatch", "aria-hidden": "true" }), trackLabel(it)]),
         el("span", { class: "rec-chev", "aria-hidden": "true" })

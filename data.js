@@ -5,7 +5,7 @@
  * 날짜 형식: "YYYY-MM"
  * kind: "period"(기간, 막대) | "point"(시점, 깃발) | "milestone"(전 트랙을 가로지르는 세로선)
  * track: 아래 tracks의 id 중 하나 (milestone은 track 없음)
- * featured: true면 대표 경험으로 강조
+ * featured: true면 주요 경험으로 강조
  * todo: 아직 채우지 않은 내용. 화면에 '작성 필요'로 표시되며, 공개 전에 모두 지워야 합니다.
  */
 window.PORTFOLIO = {
@@ -206,7 +206,7 @@ window.PORTFOLIO = {
       featured: true,
       meta: [
         { label: "대회", value: "꿈(KU:Maker) 아이디어 공모전" },
-        { label: "결과", value: "본선 진출" },
+        { label: "결과", value: "본선 진출, 최종 미선정" },
         { label: "형태", value: "2인 팀" },
         { label: "분량", value: "7쪽" }
       ],
