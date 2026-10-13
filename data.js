@@ -179,7 +179,9 @@ window.PORTFOLIO = {
       featured: true,
       meta: [
         { label: "대회", value: "꿈(KU:Maker) 아이디어 공모전" },
-        { label: "형태", value: "2인 팀" }
+        { label: "결과", value: "본선 진출" },
+        { label: "형태", value: "2인 팀" },
+        { label: "분량", value: "7쪽" }
       ],
       summary: ["스마트글래스 제품 아이디어를 기획서로 구체화한 팀 프로젝트입니다."],
       role: [
@@ -188,7 +190,11 @@ window.PORTFOLIO = {
         "발표 자료(PPT)를 만들었습니다.",
         "기술 설계는 팀원이 맡았습니다."
       ],
-      todo: "결과와 배운 점"
+      todo: "결과와 배운 점",
+      document: {
+        label: "기획서 원문",
+        file: "files/a-eye-proposal.pdf"
+      }
     },
     {
       id: "mnd-intern",
