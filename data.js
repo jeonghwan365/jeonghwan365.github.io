@@ -94,7 +94,8 @@ window.PORTFOLIO = {
       meta: [
         { label: "대회", value: "청년국가재정마스터" },
         { label: "결과", value: "장려상" },
-        { label: "형태", value: "5인 팀" }
+        { label: "형태", value: "5인 팀" },
+        { label: "분량", value: "보고서 24쪽" }
       ],
       summary: [
         "외국인 대상 사회통합프로그램(KIIP)의 재정 운용을 분석한 팀 프로젝트입니다."
@@ -147,10 +148,15 @@ window.PORTFOLIO = {
       meta: [
         { label: "대회", value: "제9회 성신의 에세이 경진대회" },
         { label: "주제", value: "알고리즘과 주의력 경제 (문화비평)" },
-        { label: "결과", value: "최우수상" }
+        { label: "결과", value: "최우수상" },
+        { label: "분량", value: "6쪽" }
       ],
       summary: ["알고리즘과 주의력 경제를 다룬 문화비평 에세이로 교내 대회 최우수상을 받았습니다."],
-      todo: "에세이의 핵심 주장 한 줄 (선택)"
+      todo: "에세이의 핵심 주장 한 줄 (선택)",
+      document: {
+        label: "에세이 원문",
+        file: "files/seongsinui-essay.pdf"
+      }
     },
     {
       id: "seoul-city-hall",
@@ -172,9 +178,8 @@ window.PORTFOLIO = {
       title: "A-Eye 스마트글래스 기획서",
       featured: true,
       meta: [
-        { label: "대회", value: "KU:Maker 아이디어 공모전" },
-        { label: "형태", value: "2인 팀" },
-        { label: "분량", value: "7쪽" }
+        { label: "대회", value: "꿈(KU:Maker) 아이디어 공모전" },
+        { label: "형태", value: "2인 팀" }
       ],
       summary: ["스마트글래스 제품 아이디어를 기획서로 구체화한 팀 프로젝트입니다."],
       role: [
@@ -183,11 +188,7 @@ window.PORTFOLIO = {
         "발표 자료(PPT)를 만들었습니다.",
         "기술 설계는 팀원이 맡았습니다."
       ],
-      todo: "결과와 배운 점",
-      document: {
-        label: "기획서 원문",
-        file: "files/a-eye-proposal.pdf"
-      }
+      todo: "결과와 배운 점"
     },
     {
       id: "mnd-intern",
@@ -212,7 +213,8 @@ window.PORTFOLIO = {
       title: "Extraction Paradox",
       meta: [
         { label: "대회", value: "한미협회 대학생 에세이 대회 제출작" },
-        { label: "형태", value: "개인, 영문" }
+        { label: "형태", value: "개인, 영문" },
+        { label: "분량", value: "26쪽 (영문)" }
       ],
       summary: ["한일 경제 협력의 한계와 가능성을 죄수의 딜레마로 분석한 영문 에세이입니다."],
       todo: "핵심 주장 한 줄",
