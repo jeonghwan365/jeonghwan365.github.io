@@ -71,9 +71,10 @@ window.PORTFOLIO = {
     },
     {
       id: "buddy-2024-summer",
-      kind: "point",
+      kind: "period",
       track: "campus",
       start: "2024-07",
+      end: "2024-08",
       short: "버디 프로그램",
       title: "교내 버디 프로그램, 우수 버디 선정",
       meta: [
@@ -142,8 +143,9 @@ window.PORTFOLIO = {
       track: "project",
       start: "2025-06",
       short: "에세이 최우수상",
-      title: "성신의 에세이 대회 최우수상",
+      title: "제9회 성신의 에세이 경진대회 최우수상",
       meta: [
+        { label: "대회", value: "제9회 성신의 에세이 경진대회" },
         { label: "주제", value: "알고리즘과 주의력 경제 (문화비평)" },
         { label: "결과", value: "최우수상" }
       ],
@@ -171,7 +173,8 @@ window.PORTFOLIO = {
       featured: true,
       meta: [
         { label: "대회", value: "KU:Maker 아이디어 공모전" },
-        { label: "형태", value: "팀" }
+        { label: "형태", value: "2인 팀" },
+        { label: "분량", value: "7쪽" }
       ],
       summary: ["스마트글래스 제품 아이디어를 기획서로 구체화한 팀 프로젝트입니다."],
       role: [
@@ -180,7 +183,11 @@ window.PORTFOLIO = {
         "발표 자료(PPT)를 만들었습니다.",
         "기술 설계는 팀원이 맡았습니다."
       ],
-      todo: "결과와 배운 점"
+      todo: "결과와 배운 점",
+      document: {
+        label: "기획서 원문",
+        file: "files/a-eye-proposal.pdf"
+      }
     },
     {
       id: "mnd-intern",
