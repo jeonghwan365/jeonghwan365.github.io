@@ -482,6 +482,8 @@ button.tl-chip:hover { background: var(--bg); }
 }
 .rec-body ul { margin: 0; padding-left: 1.2em; }
 .rec-body li { margin: 2px 0; }
+.rec-conclusion { list-style: none; padding-left: 0 !important; }
+.rec-conclusion strong { display: inline-block; min-width: 2.6em; font-weight: 600; }
 
 .rec.is-flash .rec-head { animation: flash 1.4s ease; }
 @keyframes flash {

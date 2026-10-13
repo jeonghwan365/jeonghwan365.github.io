@@ -42,8 +42,10 @@ GitHub Pages에서 그대로 열리는 정적 사이트이며, 빌드 과정이 
   featured: false,
   meta: [{ label: "대회", value: "..." }],
   summary: ["한두 문장 설명"],
+  conclusion: [{ label: "문제", text: "..." }],  // '핵심 결론'. 보고서처럼 결론이 있는 항목만
   role: ["내가 한 일 1", "내가 한 일 2"],
-  todo: "아직 채우지 않은 내용",
+  learned: ["배운 점"],
+  todo: "아직 채우지 않은 내용",          // Claude가 쓴 초안은 사용자가 검토할 때까지 "Claude 초안, 원문 대조 검토 필요"를 남깁니다
   document: { label: "보고서 원문", file: "files/파일이름.pdf" }
 }
 ```

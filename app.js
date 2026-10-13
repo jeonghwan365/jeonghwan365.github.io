@@ -405,9 +405,21 @@
 
       (it.summary || []).forEach(function (s) { body.appendChild(el("p", { text: s })); });
 
+      if (it.conclusion && it.conclusion.length) {
+        body.appendChild(el("h3", { text: "핵심 결론" }));
+        body.appendChild(el("ul", { class: "rec-conclusion" }, it.conclusion.map(function (c) {
+          return el("li", null, [el("strong", { text: c.label }), " " + c.text]);
+        })));
+      }
+
       if (it.role && it.role.length) {
         body.appendChild(el("h3", { text: "내가 한 일" }));
         body.appendChild(el("ul", null, it.role.map(function (r) { return el("li", { text: r }); })));
+      }
+
+      if (it.learned && it.learned.length) {
+        body.appendChild(el("h3", { text: "배운 점" }));
+        body.appendChild(el("ul", null, it.learned.map(function (r) { return el("li", { text: r }); })));
       }
 
       if (it.todo) body.appendChild(todoBox(it.todo));
