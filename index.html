@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>황정환 | Product Manager</title>
+  <meta name="description" content="황정환의 경험을 시간순 타임라인과 기록으로 정리한 포트폴리오입니다.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="draft-banner" class="draft-banner" hidden></div>
+
+  <main class="page">
+    <header class="masthead" id="top">
+      <div class="ident">
+        <h1 class="name" id="profile-name"></h1>
+        <p class="role" id="profile-role"></p>
+        <div class="intro" id="profile-intro"></div>
+      </div>
+      <div class="side">
+        <dl class="facts" id="profile-facts"></dl>
+        <ul class="links" id="profile-links"></ul>
+      </div>
+    </header>
+
+    <section class="section" id="timeline" aria-labelledby="timeline-heading">
+      <div class="section-head">
+        <h2 id="timeline-heading">타임라인</h2>
+        <p class="lede">2023년 12월부터 지금까지. 항목을 누르면 아래 기록으로 이동합니다.</p>
+      </div>
+      <div class="legend" id="legend" role="group" aria-label="트랙별로 보기"></div>
+      <div class="tl-scroll" id="tl-scroll">
+        <div class="tl" id="tl" role="group" aria-label="경험 타임라인"></div>
+      </div>
+      <p class="tl-hint">가로로 밀어서 전체 기간을 볼 수 있습니다.</p>
+    </section>
+
+    <section class="section" id="records" aria-labelledby="records-heading">
+      <div class="section-head">
+        <h2 id="records-heading">기록</h2>
+        <p class="lede">모든 경험을 시간순으로 정리했습니다. 항목을 누르면 펼쳐집니다.</p>
+      </div>
+      <ol class="ledger" id="ledger"></ol>
+    </section>
+
+    <footer class="footer" id="footer"></footer>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
